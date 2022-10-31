@@ -15,7 +15,7 @@ QUERY2 AS
   SELECT 
     age_bucket,
     activity_type,
-    SUM(time_spent) as time_spent 
+    SUM(time_spent) AS time_spent 
   FROM QUERY1
   GROUP BY age_bucket, activity_type
 ),
